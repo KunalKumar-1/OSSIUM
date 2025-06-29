@@ -1,0 +1,29 @@
+{
+  "network": "holesky",
+  "chainId": 17000,
+  "deployer": "0x4C20760bf69f8d6f4A36F94fA4B0e5B35A4C7540",
+  "timestamp": "2025-06-28T08:42:52.628Z",
+  "contracts": {
+    "OSSToken": {
+      "address": "0x787107B110b054eB97F64c0dE68a0B419c4Fda13",
+      "name": "Open Source Rewards",
+      "symbol": "OSS",
+      "deploymentBlock": 4076613
+    },
+    "OSSRewards": {
+      "address": "0xe9B0dE5F643c0b964FDAFf00326C556047B6B7F6",
+      "deploymentBlock": 4076614
+    },
+    "OSSDAO": {
+      "address": "0x458ab5d48DA0319f1C92B0737Df284900d828FB1",
+      "deploymentBlock": 4076616
+    }
+  },
+  "transactions": {
+    "tokenDeploy": "0x678a7ca5f8186c5e2e94c4f024c7b7083c84c24ef2bf92e9957c05141c787d74",
+    "rewardsDeploy": "0xbc0b381e979fc4bee4ea4be811f1560f6309919543ac906cc8f3597c047b11f9",
+    "daoDeploy": "0x45d2cb09948d563d0e4cd313dcfc352f0fd0b669a9a811d61936b0937e531c78",
+    "addMinter": "0x42133e51bd57fd3b40e2fd0f4481b65ce86b97aea66340417f36e160d7dc245f",
+    "transferToDAO": "0x664a1795bbab78e05569d2e5851dacb0a6d4efd6a1c31c0054ea860a24459f43"
+  }
+}
